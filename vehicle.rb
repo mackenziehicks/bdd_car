@@ -1,6 +1,6 @@
 class Vehicle
-  def initialize #(year)
-    @year = 1995 #year
+  def initialize(year)
+    @year = year
     @lights_on = false
     @signal = false
   end
